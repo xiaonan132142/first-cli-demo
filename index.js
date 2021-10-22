@@ -55,10 +55,10 @@ const initAction=()=>{
         name: 'name'
     }]).then(answer=>{
        console.log('正在拷贝')
-       const remote = ''
+       const remote = 'https://github.com/xiaonan132142/first-cli-demo.git'
        const curName = 'first-cli'
        const tarName = answer.name
-       shell.exec(`git clone ${remote} --depth=1 
+       shell.exec(`git clone ${remote}
        mv ${curName} ${tarName}
        rm -rf ./${tarName}/.git
        cd ${tarName}
