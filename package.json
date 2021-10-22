@@ -1,0 +1,19 @@
+{
+  "name": "first-cli",
+  "version": "1.0.0",
+  "description": "first try",
+  "main": "index.js",
+  "bin": {
+    "kid": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wss",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^8.2.0",
+    "inquirer": "^8.2.0",
+    "shelljs": "^0.8.4"
+  }
+}
